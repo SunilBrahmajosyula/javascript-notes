@@ -1,0 +1,81 @@
+Javascript:
+
+
+
+
+HTML: To define the content of webpages
+CSS: To define the layout of webpages
+Javascript: To define the action or behaviour of webpages
+
+what is syntax in java script?
+the syntax is punctuation,spelling, grammer of the programming language
+
+command to write string to document :
+document.write();
+
+
+1)what is javascript console?
+javascript console is used to trouble shoot javascript program using webbrowsers. we can debug.we can use to console.
+
+2)what is a variable?
+variable is something that holds value which is constantly changing for ex: there is game which holds our life status . if we are dead the satus change to dead from alive
+
+var nameof variable = value of variable;
+
+3)how to change html content content by javascript?
+
+in html
+<html>
+  <head>
+    <script src = "js.js"></script>
+  </head>
+  <body>
+  
+  </body>
+</html>
+
+
+in js.js
+document.findById("demo").innerHTML("replaced contet"); 
+
+4)javascript can change html styles 
+
+document.getElementById("demo").style.fontSize= "35px";
+
+5)javascript can hide html content
+document.getElementById("demo").style.display="none";
+
+6)jvascript can show html elements
+document.getElementById("demo").style.display="inline-block";
+
+
+javascript function:
+javascript function is a block of javascript code. It is executed when it is called for
+
+for ex: when user clicks a button which is when event occurs call that function and execute the line of code which require
+
+===============================
+
+javascript can be placed in head or body
+
+windows.alert() is used to give the alert
+
+
+javascript program is a list of statements
+
+java script statements consists of alerts,variables,values,constants,function definitation etc
+
+the purpose of function or a code block is to say that we are together and we execute together like a squad in pubg
+
+
+javascript keywords:
+
+break: terminates a switch or a loop
+ex:
+switch(a){
+case a:
+break;
+}
+for(int i=0;i<10;i++){
+if (i = 1){
+break}}
